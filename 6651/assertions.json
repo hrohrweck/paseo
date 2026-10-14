@@ -1,0 +1,12 @@
+{
+  "assertions": {
+    "IS-1a red-main ESC-prefixed": true,
+    "IS-1b on ESC-prefixed": true,
+    "IS-1c red-main === on": true,
+    "IS-2 off-payload exactly '@'": true,
+    "IS-3 live toggle (no reload between click and dispatch)": true
+  },
+  "red": "\u001bl",
+  "on": "\u001bl",
+  "off": "@"
+}

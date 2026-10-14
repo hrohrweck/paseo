@@ -1,0 +1,13 @@
+=== RED: upstream main (impl reverted) — expect ESC-prefixed ===
+captured_at_utc: 2026-10-14T13:15:52.722Z
+git_state: packages/app/src @ 938c4e2632fb3236ab2d8b8065aa8ec10f8b6978 (upstream main)
+head_at_start: 885888f35ecb12808819c14bc5ca50cfa24d55e3 (branch fix/6651-terminal-mac-option-meta)
+navigator.platform: MacIntel
+dispatch (pinned): CDP Input.dispatchKeyEvent keyDown {key:"@", code:"KeyL", windowsVirtualKeyCode:76, nativeVirtualKeyCode:76, modifiers:1 (Alt), text:"@"} + matching keyUp without text
+layout_basis: macOS German software input source composes Option+L -> "@"
+runtime macOptionIsMeta at dispatch: true
+
+payload_chunks_json: ["\u001bl"]
+payload_joined_json: "\u001bl"
+payload_joined_bytes: 1b 6c
+payload_cat_v_style: ^[l
